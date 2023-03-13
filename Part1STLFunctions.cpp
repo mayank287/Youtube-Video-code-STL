@@ -192,7 +192,7 @@ void Mayank()
 //  auto it4 = min_element(v.begin(),v.end());
 
  cout << *it3 << " " << *it4 << nline;
-// }
+}
 
 // *********************************  Main Function **************************************//
 int main()
