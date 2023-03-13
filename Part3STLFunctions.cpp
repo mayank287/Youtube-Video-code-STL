@@ -144,54 +144,54 @@ void judge()
 
 void Mayank() 
 {
-   // next_permutation() and prev_permutation()
-   // string str = "bca";
-   // next_permutation(all(str));
-   // cout << str << nline; 
-   // next_permutation(all(str));
-   // cout << str << nline; 
-   // next_permutation(all(str));
-   // cout << str << nline; 
-   // prev_permutation(all(str));
-   // cout << str << nline; 
+   next_permutation() and prev_permutation()
+   string str = "bca";
+   next_permutation(all(str));
+   cout << str << nline; 
+   next_permutation(all(str));
+   cout << str << nline; 
+   next_permutation(all(str));
+   cout << str << nline; 
+   prev_permutation(all(str));
+   cout << str << nline; 
 
-   // do{
-   //  cout << str << nline;
-   // }while(next_permutation(all(str)));
+   do{
+    cout << str << nline;
+   }while(next_permutation(all(str)));
 
 
-  // iota()
-  // ll n = 15;
-  // vector<ll> v(n);
-  // ll st = 22;
-  // iota(all(v),st);
-  // for(auto &x : v)
-  // {
-  //   cout << x << " ";
-  // }
+  iota()
+  ll n = 15;
+  vector<ll> v(n);
+  ll st = 22;
+  iota(all(v),st);
+  for(auto &x : v)
+  {
+    cout << x << " ";
+  }
    
- // lower_bound() and upper_bound()
-  // vector<ll> v = {5,5,4,10,1,2,100,10,8,4,5,32,4,32,32,12,1,12,21,12};
-  // sort(all(v));
-  // debug(v);
-  // auto l = lower_bound(all(v),12);
-  // auto h = upper_bound(all(v),12);
-  // cout << *l << nline;
-  // cout << l - v.begin() << nline;
-  // cout << *h << nline;
-  // cout << h - v.begin()<< nline;
-  // cout << nline;
+ lower_bound() and upper_bound()
+  vector<ll> v = {5,5,4,10,1,2,100,10,8,4,5,32,4,32,32,12,1,12,21,12};
+  sort(all(v));
+  debug(v);
+  auto l = lower_bound(all(v),12);
+  auto h = upper_bound(all(v),12);
+  cout << *l << nline;
+  cout << l - v.begin() << nline;
+  cout << *h << nline;
+  cout << h - v.begin()<< nline;
+  cout << nline;
   
-  // Equal_range()
-  // vector<ll> t = {5,5,4,10,1,2,100,10,8,4,5,32,4,32,32,12,1,12,21,12};
-  // sort(all(t));
+  Equal_range()
+  vector<ll> t = {5,5,4,10,1,2,100,10,8,4,5,32,4,32,32,12,1,12,21,12};
+  sort(all(t));
 
-  // auto ans = equal_range(all(t),12);
+  auto ans = equal_range(all(t),12);
 
-  // cout << *ans.ff << nline;   
-  // cout << ans.ff - t.begin() << nline;
-  // cout << *ans.ss << nline;
-  // cout << ans.ss - t.begin() << nline;
+  cout << *ans.ff << nline;   
+  cout << ans.ff - t.begin() << nline;
+  cout << *ans.ss << nline;
+  cout << ans.ss - t.begin() << nline;
 
 }
 // *********************************  Main Function **************************************//
